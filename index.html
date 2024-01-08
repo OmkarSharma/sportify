@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Sportify </title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css">
+    <link rel="icon" href= "./image/favicon.ico">
+    
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img id="image"src="./image/logo.png" alt="sportify">Sportify</li>
+            <li>Home</li>
+            <li>Song list</li>
+        </ul>
+    </nav>
+
+    <!-- container -->
+    <div class="container">
+        <div class="song-list">
+            <h1>Welcome to the Music Room!</h1>
+        <div class="songitemscontainer">
+            <div class="songitem">
+                <img id="image" alt="1">
+                <span class="songname">My Favourite Music </span>
+                <span class="songplay"><span class="timespan"> <i id="0" class=" songitemplay ri-play-circle-fill"></i></span></span>
+            </div>
+            <div class="songitem">
+                <img id="image" alt="1">
+                <span class="songname">My Favourite Music</span>
+                <span class="songplay"><span class="timespan"> <i id="1" class=" songitemplay ri-play-circle-fill"></i></span></span>
+            </div>
+            <div class="songitem">
+                <img id="image" alt="1">
+                <span class="songname">My Favourite Music </span>
+                <span class="songplay"><span class="timespan"> <i id="2" class=" songitemplay ri-play-circle-fill"></i></span></span>
+            </div>
+            <div class="songitem">
+                <img id="image" alt="1">
+                <span class="songname">My Favourite Music </span>
+                <span class="songplay"><span class="timespan"> <i id="3" class=" songitemplay ri-play-circle-fill"></i></span></span>
+            </div>
+            <div class="songitem">
+                <img id="image" alt="1">
+                <span class="songname">My Favourite Music </span>
+                <span class="songplay"><span class="timespan"> <i id="4" class=" songitemplay ri-play-circle-fill"></i></span></span>
+           </div>
+            <div class="songitem">
+                <img id="image" alt="1">
+                <span class="songname">My Favourite Music </span>
+                <span class="songplay"><span class="timespan"> <i id="5" class=" songitemplay ri-play-circle-fill"></i></span></span>
+           </div>
+            <div class="songitem">
+                <img id="image" alt="1">
+                <span class="songname">My Favourite Music </span>
+                <span class="songplay"><span class="timespan"> <i id="6" class=" songitemplay ri-play-circle-fill"></i></span></span>
+           </div>
+            <div class="songitem">
+                <img id="image" alt="1">
+                <span  class="songname">My Favourite Music </span>
+                <span class="songplay"><span class="timespan"> <i id="7" class=" songitemplay ri-play-circle-fill"></i></span></span>
+           </div>
+         </div>
+        </div>
+        <div class="song-banner"></div>
+    </div>
+
+    <!-- Bottom -->
+    <div class="bottom">
+        <input type="range" name="range" value="0"  id="pg-bar">
+        <div class="songinfo">
+           <img id="image"src="./SRC/Cad.gif" alt=""><span id="mastersongName">Let's play My Favourite Song</span>
+        </div>
+        <div class="icons">
+            <!-- remix icons -->
+            <i class="ri-arrow-left-circle-fill" id="previous"></i>
+            <i class="ri-play-circle-fill" id="masterPlay"></i>
+            <i class="ri-arrow-right-circle-fill" id="next"></i>
+        </div>
+    </div>
+
+    <!-- custom js -->
+    <script src="./script.js"></script>
+</body>
+</html>

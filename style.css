@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+background-color: whitesmoke;
+}
+nav{
+    position: sticky;
+    top: 0;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    background-color: black;
+    height: 60px;
+    color: white;
+    align-items:center ;
+}
+nav ul li{
+    padding: 0 12px;
+}
+
+.brand img{
+    width: 55px;
+    padding: 0 10px;
+}
+
+.brand{
+display: flex;
+align-items: center;
+font-weight: bolder;
+font-size: 1.3rem;
+}
+
+.container{
+    min-height:70vh ;
+    background-color: black;
+    color: white;
+    display: flex;  
+    width: 70%;
+    margin: 20px auto;
+    border-radius: 5px;
+    padding: 20px;
+    background-image: url(./image/bg.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.song-list h1{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.songitems{
+margin-top: 10px;
+}
+
+.bottom{
+position: sticky;
+background-color: #000001;
+/* height: 120px; */
+display: flex;
+justify-content: center;
+color: white;
+flex-direction: column;
+align-items: center;
+bottom: 0;
+}
+
+.icons{
+    font-size: 40px;
+    margin-top: 5px;
+}
+
+.icons i{
+    cursor: pointer;
+}
+
+#pg-bar{
+    width: 80vw;
+    cursor: pointer;
+    margin-top: 20px;
+
+}
+
+.songitem{
+ height: 50px;
+ width: 38%;
+ background-color: white;
+ color: black;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ border-radius: 5px;
+ margin-bottom: 10px;
+ 
+}
+
+.songitem img{
+    width: 12%;
+    padding-left: 10px;
+}
+
+.timespan i{
+    /* margin: 0 23px; */
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.songname{
+ text-align: center;
+}
+
+.songinfo{
+    margin-top: 5px;
+}
+
+@media (width <= 480px) {
+    .song-list h1 {
+        font-size: 16px;
+    }
+    .songitem{
+        width: 100%;
+    }
+    .container{
+        width: 80%;
+    }
+    .songname{
+        font-size: 16px;
+    }
+    .songitemscontainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+
+}
